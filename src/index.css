@@ -1,0 +1,95 @@
+html {
+  background-color: #F5F5F6;
+}
+
+body {
+  margin: 0px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.app-clickable {
+  cursor: pointer;
+}
+
+.app-button {
+  color: white !important;
+  background-color: #0097a7 !important;
+}
+
+.app-grid-container {
+  min-height: 100vh;
+  padding-top: 58px;
+  padding-bottom: 10px;
+}
+
+.app-grid-item {
+  width: 100%;
+  padding: 3%;
+}
+
+.app-grid-item-no-padding {
+  width: 100%;
+}
+
+.app-text {
+  text-shadow: 0px 1px 2px darkslategray;
+  color: black;
+}
+
+.app-text-secondary {
+  color: white !important;
+  background-color: #0097a7 !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  white-space: normal;
+  letter-spacing: 0.02857em;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  padding: 6px 0px 6px 0px;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
